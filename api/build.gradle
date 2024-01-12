@@ -1,0 +1,12 @@
+plugins {
+	id 'java'
+}
+
+dependencies {
+	implementation project(':core')
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+	testImplementation project(':bootstrap')
+	testImplementation 'org.springframework.boot:spring-boot-starter-webflux:3.2.1'
+}

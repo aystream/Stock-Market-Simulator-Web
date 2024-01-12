@@ -1,0 +1,12 @@
+plugins {
+    id 'org.springframework.boot' version '3.2.1' apply true
+    id 'java'
+}
+
+dependencies {
+    implementation project(':api')
+}
+
+bootRun {
+    mainClass = 'com.aystream.smsw.StockMarketSimulatorWebApplication'
+}

@@ -1,0 +1,6 @@
+rootProject.name = 'StockMarketSimulatorWeb'
+
+include 'bootstrap'
+include 'core'
+include 'cli'
+include 'api'
